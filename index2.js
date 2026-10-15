@@ -28,8 +28,20 @@
 // console.log("a divisão é" divisao);
 // console.log("o resto é" resto);
 
-console.log("10" == 10); //true, igualdade simples(valor)
-console.log("10" === 10); // false, tipos diferentes(tipos de dados)
+// console.log("10" == 10); //true, igualdade simples(valor)
+// console.log("10" === 10); // false, tipos diferentes(tipos de dados)
+// console.log("25" ===! 25); // true, é estritamente diferente
+
+const temCarteira = true
+const maiorDeidade = false
+const podeConduzir = temCarteira && maiorDeidade;
+    console.log(podeConduzir);// saída false
+const temCarteira = true
+const maiorDeidade = false
+const satisfazUm = temCarteira || maiorDe idade 
+console.log(satisfazUm);//saída true
+
+
 
 
 
