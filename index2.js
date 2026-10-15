@@ -41,10 +41,20 @@
 // const satisfazUm = temCarteira || maiorDe idade 
 // console.log(satisfazUm);//saída true
 
-let ativo = true
-let inativo = !ativo
-console.log("Ativo", ativo);
-console.log("inativo", inativo);
+// let ativo = true
+// let inativo = !ativo
+// console.log("Ativo", ativo);
+// console.log("inativo", inativo);
+
+let num = "67"
+console.log(typeof num);
+
+let num2 = 66
+let num3 = string(66)
+console.log(typeof num3);
+
+
+
 
 
 
