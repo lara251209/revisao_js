@@ -15,18 +15,23 @@
 // console.log(typeof indefinido);
 // console.log(typeof numeroGrande);
 
-const n1= 120;
-const n2 = 65;
-let adicao = n1 + n2;
-let subtracao = n1 - n2;
-let multiplicacao = n1 * n2;
-let divisao = n1 / n2;
-let resto = n1 % n2
-console.log("a soma é" adicao);
-console.log(" a subtração é" subtracao);
-console.log("a multiplicação é" multiplicacao);
-console.log("a divisão é" divisao);
-console.log("o resto é" resto);
+// const n1= 120;
+// const n2 = 65;
+// let adicao = n1 + n2;
+// let subtracao = n1 - n2;
+// let multiplicacao = n1 * n2;
+// let divisao = n1 / n2;
+// let resto = n1 % n2
+// console.log("a soma é" adicao);
+// console.log(" a subtração é" subtracao);
+// console.log("a multiplicação é" multiplicacao);
+// console.log("a divisão é" divisao);
+// console.log("o resto é" resto);
+
+console.log("10" == 10); //true, igualdade simples(valor)
+console.log("10" === 10); // false, tipos diferentes(tipos de dados)
+
+
 
 
 
